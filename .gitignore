@@ -1,0 +1,10 @@
+/build
+/.dart_tool
+/.packages
+/.pub
+/.idea
+/.vscode
+**/Generated.xcconfig
+ios/Flutter/Flutter-*.xcconfig
+ios/Flutter/Generated.xcconfig
+pubspec.lock

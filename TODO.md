@@ -1,29 +1,24 @@
-# TODO: Complete Migration from Firebase to Node.js + MySQL Backend
+# UI Enhancement for Catalog and Products
 
-## Backend Setup (Node.js + MySQL) ✅ COMPLETED
-- [x] Create Node.js backend project structure
-- [x] Set up Express server with automatic table creation
-- [x] Configure MySQL connection with environment variables
-- [x] Create database schema for categories and pet_profiles tables
-- [x] Implement REST API endpoints:
-  - Categories: GET /api/categories, POST /api/categories, PUT /api/categories/:id, DELETE /api/categories/:id
-  - Pet Profiles: GET /api/pet-profiles, POST /api/pet-profiles, PUT /api/pet-profiles/:id, DELETE /api/pet-profiles/:id
-- [x] Add CORS support for Flutter app
-- [x] Implement error handling and validation
+## Catalog Screen Enhancements
+- [x] Switch from ListView to GridView for better visual layout
+- [x] Add placeholder product images to cards
+- [x] Improve card design with better shadows, rounded corners, and styling
+- [ ] Add product ratings or badges (e.g., "Best Seller")
+- [x] Enhance typography and spacing
 
-## Flutter App Migration ✅ COMPLETED
-- [x] Remove Firebase dependencies from pubspec.yaml (replaced with http package)
-- [x] Remove Firebase initialization from main.dart
-- [x] Create HTTP datasources to replace Firebase datasources
-- [x] Update repositories to use HTTP datasources
-- [x] Update admin screens to work with new backend
-- [x] Clean up Firebase-related files
+## Product Detail Screen Enhancements
+- [x] Add prominent product image at the top (placeholder)
+- [x] Reorganize layout with better sections (image, details, actions)
+- [x] Display description more prominently
+- [x] Add quantity selector for add-to-cart functionality
+- [x] Improve button styling and interactivity
 
-## Database Schema ✅ COMPLETED
-- [x] Categories table: id, name, description, created_at, updated_at
-- [x] Pet profiles table: id, user_id, name, species, breed, age, weight, medical_conditions, allergies, created_at, updated_at
+## General Improvements
+- [ ] Refine color scheme to be more pet-friendly
+- [ ] Add subtle animations or transitions
+- [ ] Ensure responsive design for different screen sizes
 
-## Testing
-- [ ] Test backend API endpoints
-- [ ] Test Flutter app integration
-- [ ] Verify admin functionality works with new backend
+## Testing and Validation
+- [ ] Test UI on different devices/emulators
+- [ ] Gather feedback for further refinements
